@@ -11,19 +11,19 @@ body {
 }
 
 .hero {
-  color: #ffffff;
+  color: #f9faf8;
   background-color: #1f2937;
 }
 
 .header {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  margin: 10px 120px;
 }
 
 .hero .logo {
   font-size: 24px;
-  color: #f9faf8;
   font-weight: 700;
 }
 
@@ -34,5 +34,37 @@ body {
 
 .hero .links a {
   text-decoration: none;
-  color: #ffffff;
+  color: #e5e7eb;
+}
+
+.hero .container {
+  display: flex;
+  margin: 120px;
+  gap: 120px;
+}
+
+.hero .container .title {
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero .container .left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.hero .container .text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.hero button {
+  border: 0;
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 700;
+  padding: 7px;
+  width: 90px;
+  border-radius: 5px;
 }
